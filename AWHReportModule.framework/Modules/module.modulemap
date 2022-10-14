@@ -1,0 +1,6 @@
+framework module AWHReportModule {
+  umbrella header "AWHReportModule.h"
+
+  export *
+  module * { export * }
+}
