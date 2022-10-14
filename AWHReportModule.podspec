@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AWHReportModule"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A short description of AWHReportModule."
 
   # This description is used to generate tags and improve search results.
@@ -139,7 +139,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  #s.resources = ['Resources/AWHReportModuleLocalizable.bundle']
+    s.resources = ['AWHReportModule.framework/AWHRMZFPlayer.bundle']
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"  #保存路径
 
