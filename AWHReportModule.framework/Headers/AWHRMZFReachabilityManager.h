@@ -33,6 +33,7 @@ typedef NS_ENUM(NSInteger, AWHRMZFReachabilityStatus) {
     AWHRMZFReachabilityStatusReachableVia2G   = 2,
     AWHRMZFReachabilityStatusReachableVia3G   = 3,
     AWHRMZFReachabilityStatusReachableVia4G   = 4,
+    AWHRMZFReachabilityStatusReachableVia5G   = 5
 };
 
 NS_ASSUME_NONNULL_BEGIN
@@ -44,7 +45,7 @@ NS_ASSUME_NONNULL_BEGIN
 
  See Apple's Reachability Sample Code ( https://developer.apple.com/library/ios/samplecode/reachability/ )
 
- @warning Instances of `AFNetworkReachabilityManager` must be started with `-startMonitoring` before reachability status can be determined.
+ @warning Instances of `AWHRMZFReachabilityManager` must be started with `-startMonitoring` before reachability status can be determined.
  */
 @interface AWHRMZFReachabilityManager : NSObject
 

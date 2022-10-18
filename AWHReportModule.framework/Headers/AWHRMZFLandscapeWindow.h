@@ -24,12 +24,13 @@
 
 #import <UIKit/UIKit.h>
 #import <AWHReportModule/AWHRMZFLandscapeViewController.h>
+@class AWHRMZFLandscapeRotationManager;
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface AWHRMZFLandscapeWindow : UIWindow
 
-@property (nonatomic, strong, readonly) AWHRMZFLandscapeViewController *landscapeViewController;
+@property (nonatomic, weak) AWHRMZFLandscapeRotationManager *rotationManager;
 
 @end
 

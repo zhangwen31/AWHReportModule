@@ -35,4 +35,6 @@
 /// 视频请求头
 @property (nonatomic, strong) NSDictionary *requestHeader;
 
+@property (nonatomic, strong, readonly) AVPlayerLayer *avPlayerLayer;
+
 @end

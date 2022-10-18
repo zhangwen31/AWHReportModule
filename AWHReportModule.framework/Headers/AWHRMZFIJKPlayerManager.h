@@ -23,9 +23,7 @@
 // THE SOFTWARE.
 
 #import <Foundation/Foundation.h>
-#import "AWHRMZFPlayerMediaPlayback.h"
-
-#if __has_include(<IJKMediaFramework/IJKMediaFramework.h>)
+#import <AWHReportModule/AWHRMZFPlayerMediaPlayback.h>
 #import <IJKMediaFramework/IJKMediaFramework.h>
 
 @interface AWHRMZFIJKPlayerManager : NSObject <AWHRMZFPlayerMediaPlayback>
@@ -38,4 +36,3 @@
 
 @end
 
-#endif

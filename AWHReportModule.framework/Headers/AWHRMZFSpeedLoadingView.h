@@ -6,7 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <AWHReportModule/AWHRMZFLoadingView.h>
+#import "AWHRMZFLoadingView.h"
 
 @interface AWHRMZFSpeedLoadingView : UIView
 

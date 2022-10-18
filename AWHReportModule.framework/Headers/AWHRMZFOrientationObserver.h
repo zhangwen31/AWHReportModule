@@ -50,6 +50,7 @@ typedef NS_ENUM(NSUInteger, AWHRMZFRotateType) {
  Rotation of support direction
  */
 typedef NS_OPTIONS(NSUInteger, AWHRMZFInterfaceOrientationMask) {
+    AWHRMZFInterfaceOrientationMaskUnknow = 0,
     AWHRMZFInterfaceOrientationMaskPortrait = (1 << 0),
     AWHRMZFInterfaceOrientationMaskLandscapeLeft = (1 << 1),
     AWHRMZFInterfaceOrientationMaskLandscapeRight = (1 << 2),
@@ -83,13 +84,8 @@ typedef NS_OPTIONS(NSUInteger, AWHRMZFDisablePortraitGestureTypes) {
 - (void)updateRotateView:(AWHRMZFPlayerView *)rotateView
            containerView:(UIView *)containerView;
 
-/// list play
-- (void)updateRotateView:(AWHRMZFPlayerView *)rotateView
-        rotateViewAtCell:(UIView *)cell
-           playerViewTag:(NSInteger)playerViewTag;
-
 /// Container view of a full screen state player.
-@property (nonatomic, strong) UIView *fullScreenContainerView;
+@property (nonatomic, strong, readonly, nullable) UIView *fullScreenContainerView;
 
 /// Container view of a small screen state player.
 @property (nonatomic, weak) UIView *containerView;
