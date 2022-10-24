@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AWHReportModule"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "A short description of AWHReportModule."
 
   # This description is used to generate tags and improve search results.
@@ -193,5 +193,13 @@ Pod::Spec.new do |s|
   s.dependency "IQKeyboardManager"
   s.dependency "AWHIJKPlayer"
   s.dependency "FQPhotoAlbum"
+  
+  #高德地图
+  s.dependency 'AMap3DMap'
+  s.dependency 'AMapNavi'
+  s.dependency 'AMapSearch'
+  s.dependency 'AMapLocation'
+  #高德地图业务库，用于高德地图相关业务展示
+  s.dependency 'AWHBGaudeMapBus'
 
 end
