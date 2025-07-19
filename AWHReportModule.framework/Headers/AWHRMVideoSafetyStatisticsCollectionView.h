@@ -6,7 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AWHRMDaySafetyStatisticsModel.h"
+#import <AWHBPublicBusiness/AWHRMDaySafetyStatisticsModel.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -15,6 +15,7 @@ typedef void(^AWHRMReturnModelBlock)(AWHRMDaySafetyStatisticsModel *model);
 
 @property(nonatomic,strong)NSMutableArray *dataArray;
 @property(nonatomic,assign)BOOL isVideo;
+@property(nonatomic,strong)NSString *carPlate;
 @property(nonatomic,copy)AWHRMReturnModelBlock ReturnModelBlock;
 
 @end

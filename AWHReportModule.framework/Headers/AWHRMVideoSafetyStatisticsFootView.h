@@ -6,14 +6,17 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AWHRMDaySafetyStatisticsModel.h"
+#import <AWHBPublicBusiness/AWHRMDaySafetyStatisticsModel.h>
 NS_ASSUME_NONNULL_BEGIN
 
 typedef void(^AWHRMMapBtnBlock)(void);
 @interface AWHRMVideoSafetyStatisticsFootView : UIView
-
+@property(nonatomic,strong)UITableView *tableView;
 @property(nonatomic,strong)AWHRMDaySafetyStatisticsModel *model;
 @property(nonatomic,copy)AWHRMMapBtnBlock MapBtnBlock;
+//车队
+@property(nonatomic,copy)NSString *teamName;
+- (CGFloat)getViewHeight;
 
 @end
 

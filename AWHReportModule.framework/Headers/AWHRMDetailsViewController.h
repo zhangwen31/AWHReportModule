@@ -17,6 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,copy)NSString *name;
 //@property(nonatomic,copy)NSString *ptitleName;
 @property(nonatomic,copy)NSString *fromVC;
+//车队名称
+@property(nonatomic,copy)NSString *teamName;
 @end
 
 NS_ASSUME_NONNULL_END

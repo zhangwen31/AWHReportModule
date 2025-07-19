@@ -15,7 +15,7 @@ typedef void(^AWHRMReturnSureBtnBlock)(NSString *str,NSString *str2);
 
 @property(nonatomic,copy)AWHRMReturnSureBtnBlock ReturnSureBtnBlock;
 @property(nonatomic,copy) void (^closeBlock)(void);
--(void)setColorWithArray:(NSMutableArray *)dataArray;
+-(void)setColorWithArray:(NSMutableArray *)dataArray selectPlateColorId:(NSString *)plateColorId;
 
 @end
 

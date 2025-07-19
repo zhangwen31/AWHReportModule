@@ -17,6 +17,7 @@ typedef void(^AWHRMReturnAccTypeBlock)(NSString *accType);
 @property(nonatomic,strong)NSArray *detailLabArr;
 @property(nonatomic,copy)NSString *accTypeStr;
 @property(nonatomic,copy)NSString *timeStr;
+@property(nonatomic,assign)BOOL isSelect;
 @property(nonatomic,copy)AWHRMReturnAccTypeBlock ReturnAccTypeBlock;
 
 @end

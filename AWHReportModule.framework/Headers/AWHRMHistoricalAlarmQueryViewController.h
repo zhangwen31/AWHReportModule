@@ -19,6 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,copy)NSString *startTime;
 @property(nonatomic,copy)NSString *endTime;
 @property(nonatomic,copy)NSString *titles;
+//车队名称
+@property(nonatomic,copy)NSString *teamName;
 
 @end
 

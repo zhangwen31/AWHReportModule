@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic,strong)NSMutableArray *videoArray;
 @property(nonatomic,strong)NSMutableArray *photoArray;
+//车队
+@property(nonatomic,copy)NSString *teamName;
 
 @end
 

@@ -10,6 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 typedef void(^AWHRMReturnSelectAlarmTypeBlock)(NSSet *selectSet,NSArray *allAlarmArray);
 @interface AWHRMAlarmTypeView : UIView
+@property (nonatomic,strong)NSMutableSet *selectSet;
 @property(nonatomic,copy)AWHRMReturnSelectAlarmTypeBlock ReturnSelectAlarmTypeBlock;
 @end
 
