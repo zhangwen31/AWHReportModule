@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 typedef void(^AWHRMSelectBtn)(NSString *string);
-@interface AWHRMAlarmTypeQueryHeadView : UITableViewHeaderFooterView
+@interface AWHRMAlarmTypeQueryHeadView : AWHBBBHeaderFooterView
 @property(nonatomic,strong)AWHRMAlarmTypeModel *model;
 @property(nonatomic,strong)UILabel *nameLab;
 @property(nonatomic, copy)AWHRMSelectBtn SelectBtn;

@@ -14,6 +14,8 @@ typedef void(^AWHRMAlarmProcessingViewBlock)(AWHRMAlarmProcessingDetailsModel *m
 
 @interface AWHRMAlarmProcessingView : UIView
 
+@property(nonatomic, strong) UILabel *titleLabel;
+
 @property(nonatomic,copy) void (^closeBlock)(void);
 
 @property(nonatomic,copy) void (^selectPresetCommonOpinionsBlock)(void);

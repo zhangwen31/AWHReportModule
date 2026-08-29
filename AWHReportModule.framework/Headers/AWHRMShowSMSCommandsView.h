@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, copy) void (^collectClick)(BOOL isCollect, AWHRMSMSCommandsModel *model);
 
-@property (nonatomic, copy) void (^selectSMSCommandsBlock)(AWHRMSMSCommandsListModel *model);
+@property (nonatomic, copy) void (^selectSMSCommandsBlock)(AWHRMSMSCommandsModel *commandsModel, AWHRMSMSCommandsListModel *model);
 
 @end
 

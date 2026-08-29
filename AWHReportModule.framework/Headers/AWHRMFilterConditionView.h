@@ -16,6 +16,8 @@ typedef void(^AWHRMShowAlarmTypeBlock)(void);
 @property(nonatomic,strong)NSArray *titleArr;
 @property(nonatomic,strong)NSArray *detailArr;
 @property(nonatomic,strong)NSArray *detailLabArr;
+@property(nonatomic,strong)NSArray *detailAttributedTextArr;
+@property(nonatomic,strong)NSArray *placeholderArr;
 @property(nonatomic,copy)NSString *speedStr;
 @property(nonatomic,copy)NSString *timeStr;
 @property(nonatomic,copy)AWHRMShowAlarmTypeBlock ShowAlarmTypeBlock;

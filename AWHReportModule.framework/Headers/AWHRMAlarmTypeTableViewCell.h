@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface AWHRMAlarmTypeTableViewCell : UITableViewCell
+@interface AWHRMAlarmTypeTableViewCell : AWHBBBTableViewCell
 
 @property (nonatomic,copy) void(^ChoseBtnBlock)(id,BOOL);
 @property(nonatomic,strong)AWHRMAlarmTypeModel *model;

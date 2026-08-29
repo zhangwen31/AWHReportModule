@@ -51,6 +51,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,copy)NSString *speedRatio;
 //处理人
 @property(nonatomic,copy)NSString *solveUser;
+//处理描述
+@property(nonatomic,copy)NSString *solveDes;
 
 -(id)initWithDictionary:(NSDictionary *)dic;
 
